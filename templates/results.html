@@ -12,33 +12,29 @@
         <h2>Results</h2>
         <div>
             <strong>Original text:</strong> {{ original_text }}
-            <!--
-            <em> Only available for 5 minutes </em>
-            <audio controls>
-              <source src="original-.mp3" type="audio/mpeg" />
-              <p>
-                Your browser does not support HTML audio, but you can still d
-                <a href="audiofile.mp3">download the music</a>.
-              </p>
-            </audio>
-                  -->
         </div>
         <div>
             <strong>Translated text:</strong> {{ translated_text }}
-            <!--
-            <em> Only available for 5 minutes </em>
-            <audio controls>
-              <source src="translation-.mp3" type="audio/mpeg" />
-              <p>
-                Your browser does not support HTML audio, but you can still d
-                <a href="audiofile.mp3">download the music</a>.
-              </p>
-            </audio>
-                  -->
         </div>
         <div>
             <strong>Target language code:</strong> {{ target_language }}
         </div>
+        <!--
+        -->
+        <div>
+          <em> Audible Translation </em>
+          <div>
+              <audio controls>
+                <source src="{{url_for('static', filename=mp3_file)}}" type="audio/mpeg" />
+                <p>
+                  Your browser does not support HTML audio, but you can still d
+                  <a href="{{url_for('static', filename=mp3_file)}}">download the file</a>.
+                </p>
+              </audio>
+          </div>
+        </div>
+        <!--
+        -->
         <div>
             <a href="{{ url_for('index') }}">Try another one!</a>
         </div>

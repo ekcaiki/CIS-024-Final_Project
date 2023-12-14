@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<neuralVoices>
+
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US"><voice xlang="en-US" xml:gender="Male" name="en-US-ChristopherNeural">
+</voice></speak>
+
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="it-IT"><voice xml:lang="it-IT" xml:gender="Female" name="it-IT-ElsaNeural">
+</voice></speak>
+
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="ja-JP"><voice xml:lang="ja-JP" xml:gender="Female" name="ja-JP-NanamiNeural">
+</voice></speak>
+
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="ru-RU"><voice xml:lang="ru-RU" xml:gender="Female" name="ru-RU-SvetlanaNeural">
+</voice></speak>
+
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="de-AT"><voice xml:lang="de-AT" xml:gender="Female" name="de-AT-IngridNeural">
+</voice></speak>
+
+</neuralVoices>
